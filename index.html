@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman|Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main-container">
+        <h1>Generate a Strong Password</h1>
+        <h3 id="passwordToDisplay">Password</h3>
+        <button id="generatePassword">Generate Password</button>
+        <div>
+            <h4 id="password-length-text">Password Length:</h4>
+            <input value="8" min="1" max="100" type="number" placeholder="Enter Password Length" id="passwordLength">
+        </div>
+        <div class="slider-container">
+            <p>Password Length Slider:</p>
+            <input id="password-length-slider" type="range" min="1" max="100" value="8">
+        </div>
+
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
